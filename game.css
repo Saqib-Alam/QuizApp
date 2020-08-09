@@ -1,0 +1,66 @@
+
+
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgba(86, 165, 235, 0.25);
+    background-color: white;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    border: 0.1rem solid rgba(86, 165, 235, 0.25);
+    transform: translateY(-o.1rem);
+    transition: transfrom 150ms;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #56a5eb;
+    color: white;
+}
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.correct {
+    background-color: #28a745;
+}
+
+.incorrect {
+    background-color: #dc3545;
+}
+
+/* hub */
+
+#hub {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hub-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hub-main-text {
+    text-align: center;
+}
+
+#progressBar{
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid #56a5eb;
+}
+
+#progressbarFull {
+    height: 3.4rem;
+    background-color: #56a5eb;
+    width: 50%;
+}
